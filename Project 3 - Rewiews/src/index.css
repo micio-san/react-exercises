@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue--primary:rgb(104, 170, 233);
+  --blue--dark:rgb(34, 35, 47);
+  --blue--light:rgb(218, 225, 227);
+}
+
+body { 
+  text-transform: capitalize;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  position: relative;
+  background-color: var(--blue--light);
+}
+
+.container { 
+  transform: translate(-50%,-50%);
+  position: absolute;  
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  background: var(--blue--primary);
+  height: 3px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.item-container {
+  width: 450px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--blue--light);
+  box-shadow: 10px 10px 20px var(--blue--dark);
+   border-top: 2px solid white ;
+   border-left: 2px solid white ;
+   padding: 20px 0px;
+}
+.button-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  bottom: -20%;
+}
+
+.btn{
+  background: none;
+  font-size: 40px;
+  text-align: center;
+  border: 2px solid var(--blue--primary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--blue--primary) ;
+}
+
+.quote-container {
+  background-color: var(--blue--primary);
+  color: var(--blue--light);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 50px;
+  position: absolute;
+  left: 30%;
+  z-index: 15;
+}
+
+.name {
+  font-size: 30px;
+  color: var(--blue--dark);
+}
+
+.title {
+  font-size: 20px;
+  color: var(--blue--primary);
+  margin: 20px;
+}
+
+.text-cont {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.customer-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+strong {
+  pointer-events: none;
+}
+
+.circle-behind {
+  width: 130px;
+  height: 130px;  
+  background-color: var(--blue--primary);
+  position: absolute;
+  top: -5px;
+  left: 52%;
+  transform: translateX(-52%);
+  z-index: 9;
+  border-radius: 50%;
+}
+
+.image-container{
+  position: relative;
+}
