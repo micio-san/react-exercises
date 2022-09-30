@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color--primary:#CA2D95;
+  --color--dark:#18181a;
+  --color--light:#e8e5e7;
+}
+
+body { 
+  text-transform: capitalize;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  position: relative;
+  background-color: var(--color--light);
+  text-transform: capitalize;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-modal,
+.btn {
+  font-size: 30px;
+  color: white;
+  background:linear-gradient(30deg, rgba(255, 255, 255, 0.607), rgba(255, 255, 255, 0.219));
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  border-top: 2px solid white ;
+  border-left: 2px solid white ;
+  box-shadow: 10px 10px 10px black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30%;
+  width: 80%;
+  background: linear-gradient(30deg, rgba(255, 255, 255, 0.262), rgba(255, 255, 255, 0.485));
+  transform: rotate(40deg);
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.837);
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left:70%;
+  height: 5%;
+  background: rgba(255, 255, 255, 0);
+  width: 80%;
+  transform: rotate(40deg); 
+  box-shadow: 10px 10px 4px rgba(255, 255, 255, 0.886);
+}
+
+.btn:active{
+  background:linear-gradient(30deg, rgba(255, 255, 255, 0.761), rgba(255, 255, 255, 0.561));
+}
+
+.container-modal {
+  width: 400px;
+  height: 300px;
+  cursor: default;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-modal h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-modal p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn-close {
+  margin-top: 20px;
+  font-size: 25px;
+  width: 200px;
+  height: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+  font-weight: 500;
+  align-self: center;
+}
