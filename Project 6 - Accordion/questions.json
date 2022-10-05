@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Why is The Sky Blue",
+    "answer": "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time."
+  },
+  {
+    "id": 2,
+    "question": "what is the first language in the world",
+    "answer": "Dating back to at least 3500 BC, the oldest proof of written Sumerian was found in today's Iraq, on an artifact known as the Kish Tablet. Thus, given this evidence, Sumerian can also be considered the first language in the world"
+  },
+  {
+    "id": 3,
+    "question": "what is the smallest country in the world",
+    "answer": "The three smallest countries in the world are Vatican City, an enclave within Rome, Italy. Monaco, a principality at the Mediterranean coast and an enclave within Southern France, and Nauru, an island country in the southwestern Pacific Ocean."
+  },
+  {
+    "id": 4,
+    "question": "what is the fastest animal in the world",
+    "answer": "The cheetah (Acinonyx jubatus) is undeniably fast, and it is true that it's the quickest animal on land. With documented top speeds of 64 mph (103 km/h), the cheetah easily surpasses other swift animals, like racehorses, to take the title of world's fastest land animal."
+  },
+  {
+    "id": 5,
+    "question": "Why is America called America",
+    "answer": "America is named after Amerigo Vespucci, the Italian explorer who set forth the then revolutionary concept that the lands that Christopher Columbus sailed to in 1492 were part of a separate continent."
+  },
+  {
+    "id": 6,
+    "question": "where is the kiwi fruit from",
+    "answer": "The original fruit is from the Far East, having been grown in what is now modern-day China for many centuries. It was only at the turn of the 20th Century, in 1904, that it arrived on New Zealand shores, when New Zealand school principal Isabel Fraser brought some kiwifruit seeds back from her travels."
+  }
+]
