@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Itachi",
+    "lastName": "Uchiha",
+    "img": "./images/Itachi.jpg",
+    "age": 21,
+    "manga": "Naruto",
+    "description": "Itachi Uchiha was a shinobi of Konohagakure's Uchiha clan who served as an Anbu Captain.  He later became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international criminal organisation known as Akatsuki, whose activity brought him into frequent conflict with Konoha and its ninja — including Sasuke who sought to avenge their clan by killing Itachi. Following his death, Itachi's motives were revealed to be more complicated than they seemed and that his actions were only ever in the interest of his brother and village, making him remain a loyal shinobi of Konohagakure to the very end."
+  },
+  {
+    "name": "Satoru",
+    "lastName": "Gojo",
+    "img": "./images/gojo.jpg",
+    "age": 28,
+    "manga": "Jujutsu Kaisen",
+    "description": "Gojo Satoru he i's a special grade jujutsu sorcerer and widely recognized as the strongest in the world. Satoru is the pride of the Gojo Family, the first person to inherit both the Limitless and the Six Eyes in four hundred years. He works as a teacher at the Tokyo Jujutsu High and uses his influence to protect and train strong young allies."
+  },
+  {
+    "name": "Yuu",
+    "lastName": "Kanda",
+    "img": "./images/kanda.jpg",
+    "age": 9,
+    "manga": "D-Grey Man",
+    "description": "Yuu Kanda is a Second Exorcist, a member of the European Branch of the Black Order, and a former member of the Asian Branch. As a disciple of General Froi Tiedoll, Kanda belongs to Tiedoll Unit."
+  },
+  {
+    "name": "Mikasa",
+    "lastName": "Ackerman",
+    "img": "./images/mikasa.jpg",
+    "age": 22,
+    "manga": "Shingeki No Kyojin",
+    "description": "After her parents were murdered by human traffickers, Mikasa was rescued by Eren Yeager and lived with him and his parents, before the fall of Wall Maria. She is the last descendant of the Shogun clan that stayed on Paradis Island, thereby related to the Azumabito family, and holds significant political power in Hizuru. Though she desires only to live a peaceful life, Mikasa entered into the military—where she is considered the best soldier among the 104th Training Corps. She later enlists in the Survey Corps to follow and protect Eren, becoming one of its greatest assets. She is currently serving as an officer in the Corps."
+  },
+  {
+    "name": "Momo",
+    "lastName": "Yaorozu",
+    "img": "./images/momo.jpg",
+    "age": 16,
+    "manga": "Boku No Hero Academia",
+    "description": "Momo is the vice class representative of Class 1-A at U.A. High School, where she got in through official recommendations and is training there to become a Pro Hero. Momo is a very prudent, dedicated person who acts as a natural leader. She is generally level-headed and calm in dangerous situations, but she isn't above falling into a panic. "
+  },
+  {
+    "name": "Balalaika",
+    "img": "./images/balalaika.jpg",
+    "age": 35,
+    "manga": "Black Lagoon",
+    "description": "She is the boss of Hotel Moscow. Her real name is Sofiya Pavlovnasian: София Павловна, Sofiya Pavlovna, but that name is not used in her presence. She was brought up by her grandfather, a general in the Red Army of the USSR. Balalaika's father has presumably either been condemned by the USSR or fled the country as was the case for many of the military commanders of the USSR after its dissolution in December 1991."
+  },
+  {
+    "name": "Toya",
+    "lastName": "Todoroki",
+    "img": "./images/Dabi.jpg",
+    "age": 24,
+    "manga": "Boku No Hero Academia",
+    "description": "He is the eldest son of the Pro Hero Endeavor, driven insane due to his neglectful and selfish actions, and becoming a villain to enact revenge. He became affiliated with the League of Villains, a former member of the organization's since disbanded Vanguard Action Squad, and later one of the nine lieutenants of the Paranormal Liberation Front."
+  },
+  {
+    "name": "Erza",
+    "lastName": "Scarlett",
+    "img": "./images/erza.jpg",
+    "age": 19,
+    "manga": "Fairy Tail",
+    "description": "Erza Scarlet is an S-Class Mage of the Fairy Tail Guild, wherein she is a member of Team Natsu. She also served as the guild's 7th Guild Master during Makarov's absence in X792."
+  },
+  {
+    "name": "Nana",
+    "lastName": "Osaki",
+    "img": "./images/nana.png",
+    "age": 20,
+    "manga": "Nana",
+    "description": "Nana Osaki is a 20-year-old woman who moves to Tokyo to pursue a professional music career with her band, Black Stones, of which she is the main vocalist. From a young age, Nana was abandoned by her mother and never knew her biological father, leading her to grow up with her grandmother. Throughout high school, Nana O.was also a loner and feared by her classmates until Nobu befriends her. She was expelled from high school after she was falsely accused of prostitution.  "
+  },
+  {
+    "name": "Sebastian",
+    "lastName": "Michaelis",
+    "img": "./images/sebastian.png",
+    "manga": "Kuroshitsuji",
+    "description": "Sebstian is the demon butler and a senior staff member of the Phantomhive household."
+  },
+  {
+    "name": "Takumi",
+    "lastName": "Ichinose",
+    "img": "./images/takumi.jpg",
+    "age": 23,
+    "manga": "Nana",
+    "description": "He was the bassist of Trapnest and formally the lover of Reira, growing up with her, and is the current abusive love interest and wife of Nana Komatsu."
+  },
+  {
+    "name": "Nona",
+    "img": "./images/nona.jpg",
+    "age": "at least 82",
+    "manga": "Death Parade",
+    "description": "Nona is the manager of the Arbiter system, as well as the bartender of Nona Ginta located on the ninetieth floor. She is the boss of Decim, Ginti, Clavis, along with the rest of the other arbiters. "
+  },
+  {
+    "name": "Shota",
+    "lastName": "Aizawa",
+    "img": "./images/aizawa.jpg",
+    "age": 30,
+    "manga": "Boku No Hero Academia",
+    "description": "The homeroom teacher for class 1-A. \n He always looks extremely tired but hates to waste time. He is a Hero known as Eraserhead whose Quirk Erasure is to nullify others' Quirks so long as they remain in his line of sight. If he blinks, his Quirk deactivates, so he always wears goggles to prevent enemies from figuring out whose quirk he is nullifying, effectively creating confusion. Continued use of his Quirk gives him dry eye, which makes him unable to use it for some time after."
+  },
+  {
+    "name": "Levi",
+    "lastName": "Ackerman",
+    "img": "./images/levi.jpg",
+    "age": 36,
+    "manga": "Shingeki No Kyojin",
+    "description": "Levi Ackerman often formally referred to as Captain Levi is the squad captain ( \"leader of the soldiers\") of the Special Operations Squad within the Survey Corps and is widely known as humanity's strongest soldier."
+  },
+  {
+    "name": "Tsunade",
+    "lastName": "Senju",
+    "img": "./images/tsunade.jpg",
+    "age": 54,
+    "manga": "Naruto",
+    "description": "Tsunade is a descendant of the Senju and Uzumaki Clan, and is one of Konohagakure's Sannin. She is famed as the world's strongest kunoichi and its greatest medical-nin. The repeated loss of her loved ones caused Tsunade to later abandon the life of a shinobi for many years. She is eventually persuaded to return to Konoha and take on the mantle of Fifth Hokage terally meaning: Fifth Fire Shadow), where her skills prove invaluable to the village."
+  },
+  {
+    "name": "undertaker",
+    "img": "./images/undertaker.png",
+    "manga": "Kuroshitsuji",
+    "description": "Undertaker is a seceded Grim Reaper. He is also a former Aristocrat of Evil and informant to the Phantomhive house since Vincent Phantomhive's time. He used to work as a funeral director for normal society"
+  },
+  {
+    "name": "Yoruichi",
+    "lastName": "Shihouin",
+    "img": "./images/yoruichi.jpg",
+    "manga": "Bleach",
+    "description": "Yoruichi Shihōin is the former captain of the 2nd Division of the Gotei 13, as well as the former commander of the Onmitsukidō. Her Lieutenant was Marenoshin Ōmaeda. Having abandoned her command of both positions, she works with Kisuke Urahara and Tessai Tsukabishi, based in the Urahara Shop out in the Human World."
+  },
+  {
+    "name": "Yaboku",
+    "img": "./images/yato.png",
+    "age": 1050,
+    "manga": "Noragami",
+    "description": "Yato is one of the main three protagonists of Noragami. He is an obscure god who aims to become a God of Fortune. In the past, he was known as a God of Calamity."
+  },
+  {
+    "name": "Eren",
+    "lastName": "Yaeger",
+    "img": "./images/eren.png",
+    "age": 20,
+    "manga": "Shingeki No Kyojin",
+    "description": "Eren Yeager was a former member of the Survey Corps. He lived in Shiganshina District with his parents until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan. This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth."
+  },
+
+  {
+    "name": "Kenpachi",
+    "lastName": "Zaraki",
+    "img": "./images/kenpachi.jpg",
+    "manga": "Bleach",
+    "description": "Kenpachi Zaraki is the current captain of the 11th Division in the Gotei 13. He is the eleventh Kenpachi to hold the position. His first lieutenant was Yachiru Kusajishi and his current lieutenant is Ikkaku Madarame."
+  },
+  {
+    "name": "Kugisaki",
+    "lastName": "Nobara",
+    "img": "./images/nobara.jpg",
+    "age": 16,
+    "manga": "Jujutsu Kaisen",
+    "description": "Nobara Kugisaki is the tritagonist of the Jujutsu Kaisen series. She is a first-year student and grade 3 jujutsu sorcerer at Tokyo Jujutsu High studying under Satoru Gojo alongside Yuji and Megumi."
+  },
+  {
+    "name": "chiyuki",
+    "img": "./images/chiyuki.jpg",
+    "age": 21,
+    "manga": "Death Parade",
+    "description": "The Black-Haired Woman sometimes referred to by fans as Onna, is an amnesiac woman taken in by Nona to Quindecim and hired as Decim's assistant. Later, her real name is revealed to be Chiyuki"
+  },
+  {
+    "name": "Shoto",
+    "lastName": "Todoroki",
+    "img": "./images/shoto.jpg",
+    "age": 16,
+    "manga": "Boku No Hero Academia",
+    "description": "He is a student in Class 1-A at U.A. High School, where he got in through official recommendations and is training to become a Pro Hero. He is the youngest son of Endeavor, the former No. 2, and current No. 1, Pro Hero."
+  },
+  {
+    "name": "Megumi",
+    "lastName": "Fushiguro",
+    "img": "./images/megumi.jpg",
+    "age": 15,
+    "manga": "Jujutsu Kaisen",
+    "description": "Megumi Fushiguro is a grade 2 jujutsu sorcerer and first-year student at Tokyo Jujutsu High alongside Yuji Itadori and Nobara Kugisaki. Megumi is the son of Toji Fushiguro, Megumi is also a descendant of the Zenin Family. Megumi was born outside the clan as Toji's trump card and was eventually found by Satoru Gojo, who mentored him and enrolled him at Jujutsu High as his student."
+  },
+  {
+    "name": "Rei",
+    "lastName": "Ayanami",
+    "img": "./images/rei.jpg",
+    "age": 14,
+    "manga": "Neon Genesis Evangelion",
+    "description": "Little is known about Rei and her stoic personality puzzles her peers. As the series progresses, her personality evolves and she becomes more involved with the people around her, particularly her classmate and fellow Eva pilot Shinji Ikari. In the concluding events of the storyline, the audience learns that Rei's mysterious origins tie into the story's resolution. Her role in this conclusion is not made clear in the TV series, but is one of the principal plot points of The End of Evangelion."
+  },
+  {
+    "name": "Loke",
+    "img": "./images/loke.jpg",
+    "manga": "Fairy Tail",
+    "description": "Loke is a member of Fairy Tail who was revealed to be the Celestial Spirit Leo, who is known as \"The Lion\" (獅子宮 Shishikyū). He is the leader of the 12 Golden Zodiac Keys. His key is currently owned by Lucy Heartfilia."
+  },
+  {
+    "name": "Suguru",
+    "lastName": "Geto",
+    "img": "./images/geto.jpg",
+    "age": 27,
+    "manga": "Jujutsu Kaisen",
+    "description": "He was originally a student of Masamichi Yaga's alongside Satoru Gojo and Shoko Ieiri at Tokyo Jujutsu High. His experiences as a jujutsu sorcerer bred a deep hatred for non-sorcerers, leading to an incident where Suguru massacred over a hundred civilians in a single night. He was expelled from Jujutsu High and came to be known as the worst of all curse users."
+  }
+]

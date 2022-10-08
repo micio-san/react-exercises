@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$dark:#20202d;
+$mid-transparent:#8c8ca847;
+$mid:#8c8ca8;
+$light:#e7e7f0;
+$borders:#35b0ed;
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: $dark;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 15vh;
+    display: flex;
+    background: red;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    .title {
+        color: $light;
+        font-size: 3em;
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+    .underline {
+        width: 50%;
+        position: absolute;
+        bottom:30px;
+        height: 5px;
+        background: $borders;
+        border-radius: 10px;
+    }
+}
+
+nav {
+   width: 100%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 10px 30px;
+   .btn {
+    background: $mid;
+    margin: 10px 10px;
+    border-radius: 2px;
+    border: 2px solid $borders;
+    height: 50%;
+    padding: 10px 40px;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover {
+         background: $mid-transparent ;
+    }
+    .btn-text{
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+   }
+}
+
+.characters-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .character-container {
+        width: 450px;
+        background: $mid-transparent;
+        border: 2px solid $borders;
+        display: flex;
+        margin: 20px auto;
+        height: 250px;
+        transition: .5s ease height;
+        &.active {
+         height: 500px;   
+        }
+        .text{
+           position: relative;
+           width: 90%;
+           text-align: end; 
+           margin-right: 5px;
+           .manga-name{
+            font-size: 30px;
+            color: $borders;
+            margin-bottom: 10px;
+           }
+           p {
+            color: $mid;
+            font-size: 15px;
+           }
+           a{
+            position: absolute;
+            bottom: 10px;
+            right: 3px;
+            font-size: 20px;
+            color: $borders;
+            cursor: pointer;
+           }
+        }
+        .photo-container {
+        width: 300px;
+         height: 100%;
+         overflow: hidden;
+              .photo {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: .3s ease transform;
+        }
+        }
+        &:hover{
+            .photo  {
+                transform: scale(1.1) ;
+            }
+        }
+    }
+}  
+
+
+ @media (max-width:1300px) {
+    header {
+        height: 10vh;
+        .title {
+            font-size: 2em;
+            letter-spacing: 3px;
+        }
+        .underline {
+            bottom:0px;
+            height: 2px;
+        }
+    }
+    nav {
+    padding: 10px 3px;
+    .btn{
+        margin: 5px 10px;
+        border-radius: 2px;
+        padding: 5px 10px;
+        .btn-text{
+            font-size: 20px;
+        }    
+        }
+    }
+    .characters-container {
+        .character-container {
+            width: 400px;
+            height: 250px;
+            transition: .5s ease height;
+            &.active {
+             height: 500px;   
+            }
+            .text{
+               position: relative;
+               width: 60%;
+               text-align: end; 
+               margin-right: 5px;
+               .manga-name{
+                font-size: 30px;
+                color: $borders;
+                margin-bottom: 10px;
+               }
+               p {
+                font-size: 13px;
+               }
+               a{
+                bottom: 3px;
+                right: 3px;
+                font-size: 20px;
+               }
+            }
+            .photo-container {
+            width: 200px;
+            }
+        }
+    } 
+}
