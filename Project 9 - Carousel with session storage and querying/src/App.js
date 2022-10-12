@@ -24,7 +24,7 @@ function App() {
         method: "GET",
         headers: {
           "X-RapidAPI-Key":
-            "667a2e0fc9mshca6e3d37c7e0194p1811f1jsnaa4be036aa59",
+            "",
           "X-RapidAPI-Host": "bing-image-search1.p.rapidapi.com",
         },
       };
