@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$dark:#2C363F;
+$darkTrans:#2c363f37;
+$pink:#E75A7C;
+$white:#F2F5EA;
+
+@mixin flex($dir,$just) {
+    display: flex;
+    align-items: center;
+    justify-content:$just ;
+    flex-direction: $dir;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: $white;
+    position: relative;
+    @include flex(row,center );
+    .sidebar-btn{
+        cursor: pointer;
+        position: fixed;
+        z-index: 30;
+        top: 10px;
+        background: none;
+        height: 50px;
+        width: 50px;
+        border: 2px solid $pink;
+        color: $pink;
+        border-radius: 50%;
+        left: 10px;
+        svg{
+            height: 30px;
+            width: 30px;
+        }
+    }
+    .modal-btn{
+        width: 200px;
+        height: 40px;
+        background: $dark;
+        color: $pink;
+        font-size: 25px;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: .5s ease border;
+        &:hover {
+            border-color:$pink ; 
+        }
+    }
+}
+
+.sidebar-container {
+    position: absolute;
+    left: -260px;
+    top: 0;
+    width: 260px;
+    background: $white;
+    border-right: 2px solid $pink;
+    height: 100%;
+    @include flex(column, space-around );
+    transition: .5s ease left;
+    .logo{
+        padding: 0px 10px;
+        width: 100%;
+        color: $dark;
+        @include flex(row, start);
+        align-items: flex-end;
+        svg{
+            width: 50px;
+            height: 50px;   
+        }
+        h1{
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+    }
+    .menu-container {
+        height: 40%;
+        width: 100%;
+        @include flex( column,center );
+        li{
+            height: 20%;
+            width: 100%;
+            background: $darkTrans;
+            cursor: pointer;
+            border-bottom: 1px solid $pink;
+            @include flex(row,flex-start);
+            a{
+                color: $dark;
+                @include flex(row,center);
+                svg {
+                    height:40px ;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .social-container {
+        width: 100%;
+        color: $dark;
+        @include flex(row, space-around);     
+        height: 100px;  
+        li{
+            width: 40px;
+           svg{ cursor: pointer;
+            height: 30px;
+            width: 30px;
+            color: $dark;
+            &:hover {
+                height: 33px;
+                width: 33px;
+                color: $pink;
+            }
+        }
+        }
+
+    }
+    &.active {
+        left: 0px; 
+    }
+}
+
+.modal-container{
+    position: absolute;
+    top: 50%;
+    width: 440px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 40;
+    background: $white;
+    border: 2px solid $pink;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    padding: 30px 10px;
+
+    h1{
+        color: $dark;
+        margin-bottom: 20px;
+        &::after {
+            content: " ";
+            position: absolute;
+            top: 22%;
+            width: 200px;
+            left: 50%;
+            height: 3px;
+            background-color: $pink;
+            transform: translateX(-50%);
+        }
+    }
+    p{
+        color: $dark;
+    } 
+       .sidebar-btn{
+        right: 10px;
+    }
+}
