@@ -26,7 +26,6 @@ function App() {
   };
 
   if (loadingStatus) {
-    console.log("cow");
     return (
       <div className="loading-container">
         <div className="dot-container">
